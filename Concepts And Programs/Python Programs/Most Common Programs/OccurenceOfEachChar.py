@@ -1,4 +1,4 @@
-test_str = "GeeksforGeeks"
+test_str = "GeeksForGeeks"
 all_freq = {}
 
 for i in test_str:

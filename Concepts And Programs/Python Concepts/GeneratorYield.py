@@ -9,8 +9,8 @@ Below is the generator to yield n^2 for each element in the given list
 
 nums = [1, 2, 3, 4, 5]
 
-def gen_fun(numbers):
-    for n in numbers:
+def gen_fun(nums):
+    for n in nums:
         yield n * n
 
 my_gen = gen_fun(nums)
