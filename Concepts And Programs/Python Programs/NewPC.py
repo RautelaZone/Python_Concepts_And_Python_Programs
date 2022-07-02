@@ -1,10 +1,7 @@
-test_str = "GeeksforGeeks"
-all_freq = {}
 
-for i in test_str:
-    if i in all_freq:
-        all_freq[i] += 1
-    else:
-        all_freq[i] = 1
+# def findEven(li):
+#     return li%2==0
 
-print(all_freq)
+li = [12,32,22,22,11,13]
+evens = list(filter(lambda a:a%2==0,li))
+print(evens)

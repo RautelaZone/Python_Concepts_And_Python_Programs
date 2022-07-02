@@ -1,3 +1,4 @@
+
 #using list comprehension
 str = "Geeks for Geeks"
 vowels="aeiou"
